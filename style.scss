@@ -70,7 +70,8 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
+  text-decoration: underline
+  ;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -252,7 +253,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 100px;
     font-style: italic;
   }
 
